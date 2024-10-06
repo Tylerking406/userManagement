@@ -1,0 +1,57 @@
+# Maven / Gradle build files
+target/
+build/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+
+# Compiled bytecode
+*.class
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+out/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+
+### VS Code ###
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+# Local application properties
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Database files
+*.h2.db
+*.mv.db
+*.hsql
+
+# Environment variables
+.env
+.env.*
+
+# Other
+# Temporary files
+*.swp
+*~
